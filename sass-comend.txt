@@ -1,0 +1,31 @@
+http://css2sass.herokuapp.com/
+https://github.com/bradtraversy/bizlight_theme
+
+
+comend---
+ruby install
+gem install sass
+sass --watch sass:css
+
+
+gulp---
+https://browsersync.io/docs/gulp
+
+npm install
+npm init
+npm install --save-dev gulp gulp-sass browser-sync
+create src folder > sass folder > style.scss
+create gulpfile.js
+npm install -g gulp-cli 
+
+
+$ node -v
+$ npm -v
+$ npm init
+$ npm install gulp browser-sync --save-dev
+$ npm install gulp-sass --save-dev
+$ npm install bootstrap@4.0.0-alpha.6
+
+Creating the Project Folder & File Structure
+At this point, your folder should consist of just a node_modules folder and the package.json file.
+In the project root, create an index.html file with the following contents:
